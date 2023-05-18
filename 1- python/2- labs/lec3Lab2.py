@@ -1,0 +1,15 @@
+print("Please enter you data:")
+name    = input("name    :")
+Age     = input("Age     :")
+city    = input("city    :")
+college = input("college :")
+
+f1 = open("file1.txt" , "w")
+f1.write("Name is :" + name +"\n")
+f1.write("Age is :" + Age +"\n")
+f1.write("city is :" + city +"\n")
+f1.write("college is :" + college +"\n")
+f1 = open("file1.txt" , "r")
+print(f1.read())
+
+f1.close()
