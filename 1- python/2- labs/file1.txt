@@ -1,4 +1,0 @@
-Name is :yasser hamed abdelhameed 
-Age is :26
-city is :ras elbar 
-college is :faculty of computing and information systems
